@@ -16,7 +16,7 @@ public class ProcessoServidor extends Thread{
     public ProcessoServidor(Socket socket, Cofre cofre){
         this.socket = socket;
         this.cofre = cofre;
-        this.numeroAleatorio = new Random().nextInt(2);
+        this.numeroAleatorio = new Random().nextInt(999);
     }
 
     @Override
